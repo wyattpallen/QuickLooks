@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'C:\Users\suber\OneDrive\Documents\workspace\Python\AtAGlance'; else echo '/C/Users/suber/OneDrive/Documents/workspace/Python/AtAGlance'; fi;)"
+VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'C:\Users\suber\OneDrive\Documents\workspace\Python\QuickLooks'; else echo '/C/Users/suber/OneDrive/Documents/workspace/Python/QuickLooks'; fi;)"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

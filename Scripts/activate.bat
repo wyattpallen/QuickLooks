@@ -1,6 +1,6 @@
 @echo off
 
-set "VIRTUAL_ENV=C:\Users\suber\OneDrive\Documents\workspace\Python\AtAGlance"
+set "VIRTUAL_ENV=C:\Users\suber\OneDrive\Documents\workspace\Python\QuickLooks"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
@@ -13,7 +13,7 @@ if defined _OLD_VIRTUAL_PROMPT (
     )
 )
 if not defined VIRTUAL_ENV_DISABLE_PROMPT (
-    set "PROMPT=(AtAGlance) %PROMPT%"
+    set "PROMPT=(QuickLooks) %PROMPT%"
 )
 
 REM Don't use () to avoid problems with them in %PATH%

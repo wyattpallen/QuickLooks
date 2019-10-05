@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"C:\Users\suber\OneDrive\Documents\workspace\Python\AtAGlance"
+$VIRTUAL_ENV = r"C:\Users\suber\OneDrive\Documents\workspace\Python\QuickLooks"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]
